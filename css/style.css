@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&family=MuseoModerno:wght@300&display=swap');
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: rgb(22, 2, 48);
+background: radial-gradient(circle, rgb(56, 3, 45) 16%, rgba(3, 21, 61, 0.816) 60%, rgb(17, 2, 59) 100%);
+ }
+
+main {
+  flex-grow: 1;
+  font-family: 'Londrina Solid', cursive;
+}
+
+footer {
+  font-family: 'Londrina Solid', cursive;
+}
