@@ -11,6 +11,8 @@ let usersChoice = "";
 let computersChoice = "";
 let usersScore = "0";
 let computersScore = "0";
+let puntajeHumano = document.getElementById('puntajeHumano');
+let puntajeCompu = document.getElementById('puntajeCompu');
 
 const mensajeResultado = document.getElementById("mensajeResultado");
 
@@ -84,4 +86,6 @@ function jugar() {
       }
       break;
   }
+puntajeHumano.innerHTML = `<b>${usersScore}</b>`;
+puntajeCompu.innerHTML = `<b>${computersScore}</b>`;
 }
